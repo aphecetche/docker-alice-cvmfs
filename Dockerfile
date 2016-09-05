@@ -14,4 +14,4 @@ RUN chmod +x /cvmfs-startup.sh
 
 ENTRYPOINT ["/cvmfs-startup.sh"]
 
-
+CMD ["AliRoot::v5-08-16-1"]

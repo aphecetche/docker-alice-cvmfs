@@ -6,8 +6,8 @@ mount -t cvmfs alice-ocdb.cern.ch /cvmfs/alice-ocdb.cern.ch
 
 source /cvmfs/alice.cern.ch/etc/login.sh
 
-if [ $# -gt 1 ]; then
-  exec "$@"
+if [ $# -gt 0 ]; then
+  alienv enter $1 
 else
   /bin/bash
 fi
