@@ -1,6 +1,6 @@
 FROM aphecetche/centos7-ali-core
 
-RUN yum install -y https://ecsft.cern.ch/dist/cvmfs/cvmfs-release/cvmfs-release-latest.noarch.rpm && yum update -y && \ 
+RUN yum update -y && yum install -y https://ecsft.cern.ch/dist/cvmfs/cvmfs-release/cvmfs-release-latest.noarch.rpm && \ 
   yum install -y cvmfs cvmfs-config-default
 
 
