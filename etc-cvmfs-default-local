@@ -1,2 +1,2 @@
-CVMFS_REPOSITORIES=alice.cern.ch,alice-ocdb.cern.ch
+CVMFS_REPOSITORIES=alice.cern.ch,alice-ocdb.cern.ch,alice-nightlies.cern.ch
 CVMFS_HTTP_PROXY=DIRECT
