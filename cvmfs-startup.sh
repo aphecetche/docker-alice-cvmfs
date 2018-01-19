@@ -4,7 +4,7 @@ mount -t cvmfs alice.cern.ch /cvmfs/alice.cern.ch
 
 mount -t cvmfs alice-ocdb.cern.ch /cvmfs/alice-ocdb.cern.ch
 
-mount -t cvmfs alice-ocdb.cern.ch /cvmfs/alice-nightlies.cern.ch
+mount -t cvmfs alice-nightlies.cern.ch /cvmfs/alice-nightlies.cern.ch
 
 source /cvmfs/alice.cern.ch/etc/login.sh
 

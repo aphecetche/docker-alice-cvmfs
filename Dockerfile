@@ -1,7 +1,7 @@
 FROM aphecetche/centos7-ali-core
 
-RUN mkdir -p /cvmfs/alice.cern.ch /cvmfs/alice-ocdb.cern.ch 
+RUN mkdir -p /cvmfs/alice.cern.ch /cvmfs/alice-ocdb.cern.ch /cvmfs/alice-nightlies.cern.ch
 
 ENTRYPOINT ["/cvmfs-startup.sh"]
 
-CMD ["AliRoot::v5-08-16-1"]
+CMD ["GCC-Toolchain/v6.2.0-alice1-4"]
